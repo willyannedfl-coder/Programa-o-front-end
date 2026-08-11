@@ -6,6 +6,11 @@ export default function Home() {
     <div className={styles.page}>
       <main className={styles.main}>
         <h1>hello mundo </h1>
+        <p>
+          
+        </p>
+        <h2>React no git hub</h2>
+
         <Image
           className={styles.logo}
           src="/next.svg"
