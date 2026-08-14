@@ -38,6 +38,14 @@ export default function Home() {
             center.
           </p>
         </div>
+        <div>
+          <h1>Ola mundo</h1>
+          <br>
+          </br>
+          <h2>React </h2>
+        </div>
+
+
         <div className={styles.ctas}>
           <a
             className={styles.primary}
