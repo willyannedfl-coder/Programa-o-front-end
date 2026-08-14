@@ -1,18 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
-import Gallery from './Gallery.js';
-import { Profile } from './Gallery.js';
-import { Button } from './Button.js';
-import Button from './Button.js';
-
-export default function App() {
-  return (
-    <Gallery />
-  );
-}
-
-
 
 export default function Home() {
   return (
@@ -23,31 +11,6 @@ export default function Home() {
           
         </p>
         <h2>React no git hub</h2>
-
-
-
-    function Profile() {
-  return (
-    <img
-      src="https://react.dev/images/docs/scientists/MK3eW3As.jpg"
-      alt="Katherine Johnson"
-    />
-  );
-}
-
-export default function Gallery() {
-  return (
-    <section>
-      <h1>Amazing scientists</h1>
-      <Profile />
-      <Profile />
-      <Profile />
-    </section>
-  );
-}
-
-
-
 
         <Image
           className={styles.logo}
