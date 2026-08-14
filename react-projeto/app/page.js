@@ -3,6 +3,8 @@ import styles from "./page.module.css";
 
 import Gallery from './Gallery.js';
 import { Profile } from './Gallery.js';
+import { Button } from './Button.js';
+import Button from './Button.js';
 
 export default function App() {
   return (
