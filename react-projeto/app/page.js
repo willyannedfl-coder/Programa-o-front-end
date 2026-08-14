@@ -1,6 +1,16 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
+import Gallery from './Gallery.js';
+
+export default function App() {
+  return (
+    <Gallery />
+  );
+}
+
+
+
 export default function Home() {
   return (
     <div className={styles.page}>
